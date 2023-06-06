@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+div {
+  flex: 1 1 auto;
+  background-size: cover;
+  filter: grayscale(2);
+  background-position: center;
+}
+
+.picture1 {
+  background-image: url("../img/picture1.jpg");
+}
+
+.picture2 {
+  background-image: url("../img/picture2.jpg");
+}
+
+.picture3 {
+  background-image: url("../img/picture3.jpg");
+}
+
+.picture4 {
+  background-image: url("../img/picture4.jpg");
+}
+
+div:hover {
+  flex-grow: 2;
+  filter: none;
+  transition: all 300ms ease-in-out;
+}
