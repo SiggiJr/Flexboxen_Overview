@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  height: 100vh;
+  background-image: url("../img/background.jpg");
+  color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 4rem;
+  text-shadow: 0 0 20px aqua;
+}
+
+main {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+main > div {
+  display: flex;
+  align-items: center;
+  flex-basis: 23%;
+  border-radius: 20px;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.picture {
+  width: 80%;
+  aspect-ratio: 16/9;
+  box-shadow: 0 0 10px 2px white;
+}
+
+.preview1 {
+  background-image: url("../img/preview_picture1.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.preview2 {
+  background-image: url("../img/preview_picture2.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.preview3 {
+  background-image: url("../img/preview_picture3.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.preview4 {
+  background-image: url("../img/preview_picture4.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: inherit;
+  border: 1px solid aquamarine;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+main > div:hover {
+  flex-grow: 2;
+  box-shadow: 0 0 20px white;
+}
+
+main > div:hover > h2 {
+  text-shadow: 0 0 20px aqua;
+}
+
+a:hover {
+  box-shadow: 0 0 20px aqua;
+}
